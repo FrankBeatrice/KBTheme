@@ -1,0 +1,65 @@
+baseurl         = "/"
+theme           = "casper-two"
+languageCode    = "en-US"
+disqusShortname = ""
+paginate        = 6
+#SectionPagesMenu = "main"
+
+[params]
+  title       = "Cannabis With Kymb"
+  subtitle    = "Your Plug for Cannabis News & Events"
+
+  cover       = "https://images.pexels.com/photos/910213/pexels-photo-910213.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350"
+  description = "Here is a description of your site."
+  metaDescription = ""
+  googleAnalytics = ""
+  customCSS = []
+  RSSLink = ""
+
+  twitterName = "cannabiswithkym"
+  fbName = "Cannabis-with-KymB-158958404674460"
+  igName = "cannabiswithkymb"
+
+  logo = "logo.png"
+  orgName = "EM"
+  orgWebsite = "https://www.telematika.org"
+  orgDescription = "Here is a description placeholder for your org"
+
+  author = "Kym B"
+  authorAvatar = "https://info.lululemon.com/content/dam/lululemon/stores/newyork-new-york/ambassadors/Kym%20Byrnes%20Headshot.jpg"
+  authorLocation = "Bandung, ID"
+  authorWebsite = "https://eueung.github.io"
+  authorDescription = "Describe yourself.."
+
+  pageNotFoundTitle = "404 - Page not found"
+
+  #casper or caspertwo
+  singleViewStyle = "casper"
+
+[permalinks]
+  post = "/:slug/"
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 200
+
+[[menu.main]]
+  name = "Articles"
+  url = "/tags/articles/"
+  weight = 100
+
+[[menu.main]]
+  name = "News"
+  url = "/categories/News/"
+  weight = 99
+
+  [[menu.main]]
+  name = "Features"
+  url = "/categories/features/"
+  weight = 99
+
+[[menu.main]]
+  name = "Tribe Tokes"
+  url = "https://www.tribetokes.com/"
+  weight = 95
